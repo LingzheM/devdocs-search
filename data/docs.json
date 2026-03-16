@@ -1,0 +1,162 @@
+[
+  {
+    "id": "1",
+    "title": "Understanding useEffect in React",
+    "content": "useEffect is a React Hook that lets you synchronize a component with an external system. It runs after every render by default. You can control when it runs by passing a dependency array.",
+    "category": "React",
+    "level": "beginner",
+    "url": "https://react.dev/reference/react/useEffect"
+  },
+  {
+    "id": "2",
+    "title": "TypeScript Generics Explained",
+    "content": "Generics allow you to write reusable code that works with multiple types. Instead of specifying a concrete type, you use a type parameter that gets filled in when the function or class is used.",
+    "category": "TypeScript",
+    "level": "intermediate",
+    "url": "https://www.typescriptlang.org/docs/handbook/2/generics.html"
+  },
+  {
+    "id": "3",
+    "title": "CSS Flexbox Complete Guide",
+    "content": "Flexbox is a one-dimensional layout method for arranging items in rows or columns. Items flex to fill additional space and shrink to fit into smaller spaces.",
+    "category": "CSS",
+    "level": "beginner",
+    "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox"
+  },
+  {
+    "id": "4",
+    "title": "Node.js Event Loop Deep Dive",
+    "content": "The event loop is what allows Node.js to perform non-blocking I/O operations. It offloads operations to the system kernel whenever possible, handling callbacks when operations complete.",
+    "category": "Node.js",
+    "level": "advanced",
+    "url": "https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick"
+  },
+  {
+    "id": "5",
+    "title": "React useState Hook Tutorial",
+    "content": "useState is a React Hook that lets you add a state variable to your component. State variables trigger re-renders when updated, keeping your UI in sync with your data.",
+    "category": "React",
+    "level": "beginner",
+    "url": "https://react.dev/reference/react/useState"
+  },
+  {
+    "id": "6",
+    "title": "TypeScript Union Types and Type Guards",
+    "content": "Union types allow a value to be one of several types. Type guards are expressions that perform runtime checks to narrow down the type within a conditional block.",
+    "category": "TypeScript",
+    "level": "intermediate",
+    "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html"
+  },
+  {
+    "id": "7",
+    "title": "Next.js App Router vs Pages Router",
+    "content": "The App Router is the newer routing system in Next.js built on React Server Components. It supports layouts, nested routing, loading states, and error handling at the component level.",
+    "category": "Next.js",
+    "level": "intermediate",
+    "url": "https://nextjs.org/docs/app"
+  },
+  {
+    "id": "8",
+    "title": "JavaScript Promise and Async Await",
+    "content": "Promises represent the eventual completion or failure of an asynchronous operation. Async/await is syntactic sugar over promises that makes asynchronous code look and behave more like synchronous code.",
+    "category": "JavaScript",
+    "level": "beginner",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+  },
+  {
+    "id": "9",
+    "title": "CSS Grid Layout Fundamentals",
+    "content": "CSS Grid is a two-dimensional layout system that lets you lay content out in rows and columns simultaneously. It gives you fine control over how elements are sized, positioned, and layered.",
+    "category": "CSS",
+    "level": "beginner",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout"
+  },
+  {
+    "id": "10",
+    "title": "React Context API for State Management",
+    "content": "Context provides a way to pass data through the component tree without having to pass props down manually at every level. It is designed to share data that can be considered global for a tree of React components.",
+    "category": "React",
+    "level": "intermediate",
+    "url": "https://react.dev/reference/react/createContext"
+  },
+  {
+    "id": "11",
+    "title": "Node.js Streams and Buffers",
+    "content": "Streams are objects that let you read data from a source or write data to a destination in a continuous fashion. Buffers are used to represent a fixed-length sequence of bytes in memory.",
+    "category": "Node.js",
+    "level": "advanced",
+    "url": "https://nodejs.org/api/stream.html"
+  },
+  {
+    "id": "12",
+    "title": "TypeScript Interface vs Type Alias",
+    "content": "Both interfaces and type aliases can be used to describe object shapes. Interfaces are extendable and better for defining public APIs. Type aliases are more flexible and can represent any type including unions and primitives.",
+    "category": "TypeScript",
+    "level": "beginner",
+    "url": "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+  },
+  {
+    "id": "13",
+    "title": "Next.js Server Components Explained",
+    "content": "React Server Components allow you to write UI that can be rendered and optionally cached on the server. They reduce the amount of JavaScript sent to the client and improve initial page load performance.",
+    "category": "Next.js",
+    "level": "advanced",
+    "url": "https://nextjs.org/docs/app/building-your-application/rendering/server-components"
+  },
+  {
+    "id": "14",
+    "title": "JavaScript Array Methods Cheatsheet",
+    "content": "JavaScript arrays have many built-in methods. map transforms each element, filter selects elements matching a condition, reduce accumulates values, and find returns the first matching element.",
+    "category": "JavaScript",
+    "level": "beginner",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
+  },
+  {
+    "id": "15",
+    "title": "React Custom Hooks Best Practices",
+    "content": "Custom hooks let you extract component logic into reusable functions. A custom hook is a JavaScript function whose name starts with use and that may call other hooks.",
+    "category": "React",
+    "level": "intermediate",
+    "url": "https://react.dev/learn/reusing-logic-with-custom-hooks"
+  },
+  {
+    "id": "16",
+    "title": "CSS Variables and Custom Properties",
+    "content": "CSS custom properties, also known as CSS variables, allow you to define reusable values in your stylesheet. They are defined with a double dash prefix and accessed using the var() function.",
+    "category": "CSS",
+    "level": "beginner",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties"
+  },
+  {
+    "id": "17",
+    "title": "Node.js REST API with Express",
+    "content": "Express is a minimal and flexible Node.js web application framework. It provides a robust set of features for web and mobile applications including routing, middleware, and template engines.",
+    "category": "Node.js",
+    "level": "beginner",
+    "url": "https://expressjs.com/en/starter/hello-world.html"
+  },
+  {
+    "id": "18",
+    "title": "TypeScript Decorators and Metadata",
+    "content": "Decorators are a special kind of declaration that can be attached to classes, methods, and properties. They use the @expression syntax and are commonly used in frameworks like NestJS and Angular.",
+    "category": "TypeScript",
+    "level": "advanced",
+    "url": "https://www.typescriptlang.org/docs/handbook/decorators.html"
+  },
+  {
+    "id": "19",
+    "title": "JavaScript Closures and Scope",
+    "content": "A closure is the combination of a function bundled together with references to its surrounding state. Closures give you access to an outer function scope from an inner function even after the outer function has returned.",
+    "category": "JavaScript",
+    "level": "intermediate",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures"
+  },
+  {
+    "id": "20",
+    "title": "Next.js API Routes and Route Handlers",
+    "content": "Route Handlers allow you to create custom request handlers for a given route using the Web Request and Response APIs. They run on the server and can access databases and external APIs securely.",
+    "category": "Next.js",
+    "level": "beginner",
+    "url": "https://nextjs.org/docs/app/building-your-application/routing/route-handlers"
+  }
+]
